@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(189, 231, 235);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(161, 146, 224);
+
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+input {
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(235, 235, 235);
+    padding: 5px 10px;
+}
+
+button {
+    margin-top: 1rem;
+    border: 0;
+    background-color: rgb(131, 201, 223);
+    padding: 10px;
+    color: #08010c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.exercicio {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #0b1ae7;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resultado {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1065px) {
+    main {
+        height: auto;
+        flex-direction: column;
+        gap: 0;
+        padding: 40px 0;
+    }
+}
